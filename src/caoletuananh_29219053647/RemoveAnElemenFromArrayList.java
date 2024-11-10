@@ -8,6 +8,10 @@ public class RemoveAnElemenFromArrayList {
             number.add(i);
         }
         number.remove(Integer.valueOf(5));//Integer.valueOf() chuyen int , string thanh 1 doi tuong integer
+//         for(Integer i  = 0; i <= 10 ; i++){
+//            number.add(i);
+//        }
+//         number.remove(5);
         System.out.println("ArrayList after removing 5: " + number);
     }
  
